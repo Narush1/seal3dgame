@@ -1,0 +1,20 @@
+/* Общие стили для клиента */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #121212;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+canvas {
+  display: block;
+  background: #222;
+  margin: 0 auto;
+  border: 2px solid #00bcd4;
+  border-radius: 8px;
+}
+
+/* Чат и UI элементы уже стилизованы в js inline */

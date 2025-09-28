@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lobby - Multiplayer Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Multiplayer Game Lobby</h1>
+
+    <div id="register-login">
+      <h2>Регистрация</h2>
+      <input id="reg-username" type="text" placeholder="Имя пользователя" />
+      <input id="reg-password" type="password" placeholder="Пароль" />
+      <button id="register-btn">Зарегистрироваться</button>
+      <div id="reg-message" class="message"></div>
+
+      <h2>Вход</h2>
+      <input id="login-username" type="text" placeholder="Имя пользователя" />
+      <input id="login-password" type="password" placeholder="Пароль" />
+      <button id="login-btn">Войти</button>
+      <div id="login-message" class="message"></div>
+    </div>
+
+    <div id="server-selection" style="display:none;">
+      <h2>Выберите сервер</h2>
+      <div id="servers-list"></div>
+    </div>
+  </div>
+
+  <script src="lobby.js"></script>
+</body>
+</html>

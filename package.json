@@ -1,0 +1,24 @@
+{
+  "name": "sealmes-game",
+  "version": "1.0.0",
+  "description": "Multiplayer 3D PvP game with chat and inventory",
+  "main": "server1.js",
+  "scripts": {
+    "start:server1": "node server1.js",
+    "start:server2": "node server2.js",
+    "start:server3": "node server3.js",
+    "start:server4": "node server4.js",
+    "start": "node server1.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "bcrypt": "^5.1.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "YourName",
+  "license": "MIT"
+}
